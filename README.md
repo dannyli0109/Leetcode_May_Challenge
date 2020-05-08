@@ -13,3 +13,7 @@ Using c++ this month, try to up my c++ game
 [Day5 - First Unique Character in a String](day5.md)
 
 [Day6 - Majority Element](day6.md)
+
+[Day7 - Cousins in Binary Tree](day7.md)
+
+[Day8 - Check If It Is a Straight Line](day8.md)
