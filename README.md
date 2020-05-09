@@ -16,4 +16,8 @@ Using c++ this month, try to up my c++ game
 
 [Day7 - Cousins in Binary Tree](day7.md)
 
+---
+
 [Day8 - Check If It Is a Straight Line](day8.md)
+
+[Day9 - Valid Perfect Square](day9.md)
