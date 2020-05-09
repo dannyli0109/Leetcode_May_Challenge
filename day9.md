@@ -42,3 +42,28 @@ public:
     }
 };
 ```
+
+---
+- binary search
+
+```cpp
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+        long left = 0;
+        long right = num;
+        long mid = (left + right) / 2;
+        while(mid * mid != num) {
+            mid = (left + right) / 2;
+            if (mid * mid > num && (mid - 1) * (mid - 1) < num) return false;
+            if (mid * mid > num) {
+                right = mid - 1;
+            }
+            else {
+                left = mid + 1;
+            }
+        }
+        return true;
+    }
+};
+```
