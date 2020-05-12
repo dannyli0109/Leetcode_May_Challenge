@@ -21,3 +21,7 @@ Using c++ this month, try to up my c++ game
 [Day8 - Check If It Is a Straight Line](day8.md)
 
 [Day9 - Valid Perfect Square](day9.md)
+
+[Day10 - Find the Town Judge](day10.md)
+
+[Day11 - Flood Fill](day11.md)
