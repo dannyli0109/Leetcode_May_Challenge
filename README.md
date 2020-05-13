@@ -25,3 +25,5 @@ Using c++ this month, try to up my c++ game
 [Day10 - Find the Town Judge](day10.md)
 
 [Day11 - Flood Fill](day11.md)
+
+[Day12 - Single Element in a Sorted Array](day12.md)
