@@ -31,3 +31,39 @@ Input: num = "10", k = 2
 Output: "0"
 Explanation: Remove all the digits from the number and it is left with nothing which is 0.
 ```
+
+---
+- the general rule being if `num[i] > num[i + 1]`, remove the digit, if there's leading zeros, remove the zeros.
+
+```cpp
+class Solution {
+public:
+    string removeKdigits(string num, int k) {
+        int i = 0;
+        while(k > 0 && i < num.size() - 1) {
+            if (num.size() < 2) return "0";
+            if (num[i] > num[i + 1]) {
+                num = num.substr(0, i) + num.substr(i + 1);
+                k--;
+                if (i > 0) {
+                    i--;       
+                }
+            }
+            else {
+                i++;
+            }
+            
+            while(num[0] == '0' && num.size() > 1) {
+                num = num.substr(1);
+            }
+        }
+        while (k > 0) {
+            if (num.size() == 0) return "0";
+            num = num.substr(0, num.size() - 1);
+            k--;
+        }
+        if (num.size() == 0) return "0";
+        return num;
+    }
+};
+```

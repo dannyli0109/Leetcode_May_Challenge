@@ -29,3 +29,5 @@ Using c++ this month, try to up my c++ game
 [Day12 - Single Element in a Sorted Array](day12.md)
 
 [Day13 - Remove K Digits](day13.md)
+
+[Day14 - Implement Trie (Prefix Tree)](day14.md)
