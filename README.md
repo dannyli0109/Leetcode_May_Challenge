@@ -39,3 +39,7 @@ Using c++ this month, try to up my c++ game
 [Day16 - Odd Even Linked List](day16.md)
 
 [Day17 - Find All Anagrams in a String](day17.md)
+
+[Day18 - Permutation in String](day18.md)
+
+[Day19 - Online Stock Span](day19.md)

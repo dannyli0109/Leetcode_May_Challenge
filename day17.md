@@ -38,7 +38,8 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 ```
 
 ---
-
+- storing alphabets as frequency table and check if they are the same
+- shift the frequency table if the current index is larger than the target  
 
 ```cpp
 class Solution {
