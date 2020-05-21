@@ -34,3 +34,28 @@ Note that (for example) S.next(75) returned 4, because the last 4 prices
 2. There will be at most 10000 calls to StockSpanner.next per test case.
 3. There will be at most 150000 calls to StockSpanner.next across all test cases.
 4. The total time limit for this problem has been reduced by 75% for C++, and 50% for all other languages.
+
+---
+- store the stock price and the current count, pop them and add to the count if the stock price at the top of the stack is less than the current stock price.
+
+```cpp
+class StockSpanner {
+public:
+    stack<pair<int, int>> stack;
+    int next(int price) {
+       int count = 1;
+        while(!stack.empty() && stack.top().first <= price) {
+            count += stack.top().second;
+            stack.pop();
+        } 
+        stack.push({price, count});
+        return count;
+    }
+};
+
+/**
+ * Your StockSpanner object will be instantiated and called as such:
+ * StockSpanner* obj = new StockSpanner();
+ * int param_1 = obj->next(price);
+ */
+```

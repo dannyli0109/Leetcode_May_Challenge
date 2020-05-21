@@ -43,3 +43,5 @@ Using c++ this month, try to up my c++ game
 [Day18 - Permutation in String](day18.md)
 
 [Day19 - Online Stock Span](day19.md)
+
+[Day20 - Kth Smallest Element in a BST](day20.md)
