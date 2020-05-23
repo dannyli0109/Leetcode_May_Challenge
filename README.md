@@ -45,3 +45,5 @@ Using c++ this month, try to up my c++ game
 [Day19 - Online Stock Span](day19.md)
 
 [Day20 - Kth Smallest Element in a BST](day20.md)
+
+[Day21 - Sort Characters By Frequency](day21.md)
