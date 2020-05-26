@@ -54,4 +54,6 @@ Using c++ this month, try to up my c++ game
 
 [Day23 - Construct Binary Search Tree from Preorder Traversal](day23.md)
 
-[Day24 - Uncrossed Lines](day24.md)
+[Day24 - Uncrossed Lines (need revise)](day24.md)
+
+[Dat25 - Contiguous Array (need revise)](day25.md)

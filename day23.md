@@ -17,7 +17,7 @@ Input: [8,5,1,7,10,12]
 Output: [8,5,10,1,7,null,12]
 ```
 
-![](https://assets.leetcode.com/uploads/2019/03/06/1266.png)
+<img src="https://assets.leetcode.com/uploads/2019/03/06/1266.png" width="500">
 
 **Constraints:**
 
