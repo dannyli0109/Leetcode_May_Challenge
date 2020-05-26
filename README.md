@@ -46,4 +46,12 @@ Using c++ this month, try to up my c++ game
 
 [Day20 - Kth Smallest Element in a BST](day20.md)
 
+---
+
 [Day21 - Sort Characters By Frequency](day21.md)
+
+[Day22 - Interval List Intersections](day22.md)
+
+[Day23 - Construct Binary Search Tree from Preorder Traversal](day23.md)
+
+[Day24 - Uncrossed Lines](day24.md)
